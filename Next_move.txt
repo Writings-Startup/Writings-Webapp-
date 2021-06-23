@@ -1,1 +1,22 @@
 project Clone Done..
+
+git checkout -b yourname		FOR CREATE NEW BRANCH
+
+git pull				FOR UPDATE PROJECT
+
+	AFTER YOUR WORK OR EDIT
+
+git add --all				FOR ADD EDITS
+
+git commitm -m "YOUR COMMIT MESSAGE"	FOR CREATE COMMIT
+
+git pull				FOR UPDATE PROJECT
+
+git push				FOR UPLOAD YOUR WORK TO GITHUB
+
+
+NOTE: after the push request git hub asking your registred username and password
+
+
+
+
