@@ -8,7 +8,7 @@ git pull				FOR UPDATE PROJECT
 
 git add --all				FOR ADD EDITS
 
-git commitm -m "YOUR COMMIT MESSAGE"	FOR CREATE COMMIT
+git commit -m "YOUR COMMIT MESSAGE"	FOR CREATE COMMIT
 
 git pull				FOR UPDATE PROJECT
 
