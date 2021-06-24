@@ -15,7 +15,7 @@ git pull				FOR UPDATE PROJECT
 git push				FOR UPLOAD YOUR WORK TO GITHUB
 
 
-NOTE: after the push request git hub asking your registred username and password
+NOTE: after the push request git hub asking your registred username and password..
 
 
 
