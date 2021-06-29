@@ -4,7 +4,9 @@ function LeftsideBox() {
     return (
         <div className="body">
         
-        
+        <div className="null">
+                
+        </div>
             <div className="content-box">
                 <h4 className="content">Feeds</h4>
             </div>  
