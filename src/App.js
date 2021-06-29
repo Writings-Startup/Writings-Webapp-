@@ -1,13 +1,9 @@
-import LeftsideBox from "./Components/LeftsideBox"
-import Navibar from "./Components/Navibar"
-import Newsfeed from "./Components/Newsfeed"
+import Home from "./Pages/Home"
 import "./Css/App.css"
 function App() {
   return (
     <div className="App">
-     <Navibar></Navibar>
-     <LeftsideBox></LeftsideBox>
-     <Newsfeed></Newsfeed>
+     <Home></Home>
     </div>
   );
 }
