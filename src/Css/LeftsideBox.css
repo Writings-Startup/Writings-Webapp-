@@ -32,5 +32,11 @@
       margin-top: 0%;
       margin-left: 35%;
       padding-top: 10%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-decoration: none;
       
+}
+.null{
+    background: #FDFDFD;
+    height: 80px;
 }
