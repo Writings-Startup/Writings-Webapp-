@@ -1,6 +1,6 @@
 import React from 'react'
-import "../Css/LeftsideBox.css"
-function LeftsideBox() {
+import "../Css/LeftNavibar.css"
+function LeftNavibar() {
     return (
         <div className="body">
         
@@ -29,4 +29,4 @@ function LeftsideBox() {
     )
 }
 
-export default LeftsideBox
+export default LeftNavibar
