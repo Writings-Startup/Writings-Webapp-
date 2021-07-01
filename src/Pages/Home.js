@@ -1,5 +1,5 @@
 import React from 'react'
-import LeftsideBox from "../Components/LeftsideBox"
+import LeftsideBox from "../Components/LeftNavibar"
 import Navibar from "../Components/Navibar"
 import Newsfeed from "../Components/Newsfeed"
 import "../Css/Home.css"
