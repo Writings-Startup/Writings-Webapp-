@@ -7,7 +7,7 @@ function Home() {
     return (
         <div>
         <Navibar></Navibar>
-        <LeftsideBox></LeftsideBox>
+        <LeftNavibar></LeftNavibar>
         <Newsfeed></Newsfeed>
         </div>
     )
