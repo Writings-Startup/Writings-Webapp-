@@ -1,6 +1,7 @@
 .testnew{
-    background-color:darkgoldenrod;
+    background-color:rgb(255, 255, 254);
     width: 80vw;
     height: 100vh;
+    z-index: -1;
  
 }
