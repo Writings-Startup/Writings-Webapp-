@@ -1,9 +1,14 @@
 .testnew{
+<<<<<<< HEAD
     background: rgb(255,255,255);
 
     
    
+=======
+    background-color:rgb(255, 255, 254);
+>>>>>>> 006a066ac117a5cca0ed6abe02d7804ce5bbe3e0
     width: 80vw;
     height: 100vh;
+    z-index: -1;
  
 }
