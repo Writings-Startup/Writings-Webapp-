@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Css/Navibar.css"
+
 function Navibar() {
     return (
       <div className="nav">
