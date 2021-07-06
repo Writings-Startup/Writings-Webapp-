@@ -1,5 +1,8 @@
 .testnew{
-    background-color:rgb(255, 255, 254);
+    background: rgb(255,255,255);
+
+    
+   
     width: 80vw;
     height: 100vh;
     z-index: -1;
