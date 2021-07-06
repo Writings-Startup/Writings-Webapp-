@@ -2,14 +2,18 @@ import React from 'react'
 import "../Css/Navibar.css"
 function Navibar() {
     return (
-      <div className="nav">
+      <div className="nav" >
       <div className="logo">Logoname</div>
+      
       <form>
-        <input type="text" placeholder="Search"></input>
+        
+        <input type="text" placeholder=" Search article" className="fa fa-search" ></input>
+       
+        
       </form>
       <input type="checkbox" id="click"></input>
       <label for="click" className="menu-btn">
-        <i class="fa fa-bars"></i>
+      <i class="fa fa-bars"></i>
       </label>
       <ul >
         <li><a className="active" href="#">Home</a></li>
