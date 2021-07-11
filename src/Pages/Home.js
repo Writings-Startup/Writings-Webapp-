@@ -1,7 +1,7 @@
 import React from 'react'
 //import Navibar from '../Components/Navibar'
 import LeftNavibar from "../Components/LeftNavibar"
-//import Newsfeed from "../Components/Newsfeed"
+import Newsfeed from "../Components/Newsfeed"
 import "../Css/Home.css"
 
 function Home() {
@@ -10,6 +10,7 @@ function Home() {
         <div>
             
             <LeftNavibar/>
+            <Newsfeed/>
             
         </div>
 
