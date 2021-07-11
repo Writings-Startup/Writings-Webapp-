@@ -13,7 +13,7 @@ function Navibar() {
           <Router>
             <Navbar/>
             <Switch>
-                
+                <Route exact path='/' component={Home}></Route>
                 <Route path ='/notifications' component={Notifications}></Route>
                 <Route path ='/profile' component={Profile}></Route>
                 <Route path ='/create' component={Create}></Route>

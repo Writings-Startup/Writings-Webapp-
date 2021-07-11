@@ -4,8 +4,7 @@ import "../Css/Profile.css"
 function Profile() {
     return (
         <div>
-            profile 
-            
+            profile page
         </div>
     )
 }
