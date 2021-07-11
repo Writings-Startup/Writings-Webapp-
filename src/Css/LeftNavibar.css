@@ -1,45 +1,38 @@
-
-
-
-
 .body{
     width: 20vw;
-    height: 940px;
+    height: 100%;
     top: 80px;
     margin: auto;
     align-content: center;
     background: #FDFDFD;
-
-    
     position: fixed;
-
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     
 
 }   
 
-
 .content-box{
-     width: 20vw;
+     width: 15vw;
     height: 67px;
     left: 10px;
     top: 155px;
     background: #FDFDFD;
     margin-bottom: 12px;
-    }
+    text-align: start;
+}
 
 
 .content-box:hover{
     background: rgba(252, 237, 112, 1);
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
-    }
+}
 
-  .content{
-      margin-top: 0%;
-      margin-left:30%;
-      padding-top: 10%;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      text-decoration: none;
+.content{
+  margin-top: 0%;
+  margin-left:30%;
+  padding-top: 10%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
 }
 .link{
     margin-left: 35%;
@@ -61,7 +54,7 @@
 } 
 .null{
     background: #FDFDFD;
-    height: 80px;
+    height: 50px;
 }
  @media only screen and (max-width:1000px){
     .span{
