@@ -9,7 +9,7 @@ import Create from '../Pages/Create';
 
 function Navibar() {
     return (
-        <div>
+        <div className="navigation">
           <Router>
             <Navbar/>
             <Switch>
