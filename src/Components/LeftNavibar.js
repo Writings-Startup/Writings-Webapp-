@@ -1,9 +1,5 @@
 import React from 'react'
 import "../Css/LeftNavibar.css"
-import { IconContext } from 'react-icons';
-import { MdRssFeed, MdEvent } from "react-icons/md";
-import { AiOutlineRead, AiOutlineFire } from "react-icons/ai";
-import { GiAlliedStar } from "react-icons/gi";
 
 function LeftNavibar() {
 

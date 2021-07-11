@@ -1,31 +1,27 @@
 import React from 'react'
-import "../Css/Navibar.css"
+import Navbar from './topNavbar/Navbar';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from '../Pages/Home';
+import Profile from '../Pages/Profile';
+import Notifications from '../Pages/Notifications';
+import Settings from '../Pages/Settings';
+import Create from '../Pages/Create';
 
 function Navibar() {
     return (
-      <div className="nav" >
-      <div className="logo">Logoname</div>
-      
-      <form>
-        
-        <input type="text" placeholder=" Search article" className="fa fa-search" ></input>
-       
-        
-      </form>
-      <input type="checkbox" id="click"></input>
-      <label for="click" className="menu-btn">
-      <i class="fa fa-bars"></i>
-      </label>
-      <ul >
-        <li><a className="active" href="#">Home</a></li>
-        <li><a href="#">Notification</a></li>
-        <li><a href="#">Profile</a></li>
-        <li><button className="create-btn">Create</button></li>
-        <li><a href="#">Settings</a></li>
-      </ul>
-    </div>
-    
+        <div>
+          <Router>
+            <Navbar/>
+            <Switch>
+                
+                <Route path ='/notifications' component={Notifications}></Route>
+                <Route path ='/profile' component={Profile}></Route>
+                <Route path ='/create' component={Create}></Route>
+                <Route path ='/profile' component={Settings}></Route>
+            </Switch>
+          </Router>
+        </div>
     )
 }
 
-export default Navibar
+export default Navibar;
