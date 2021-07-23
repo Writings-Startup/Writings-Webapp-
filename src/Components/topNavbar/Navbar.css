@@ -1,5 +1,9 @@
 *{
     font-weight: bold;
+    
+}
+.nav-bar{
+    position:fixed
 }
 .Navbar{
     
@@ -10,7 +14,9 @@
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid rgba(43, 42, 42, 0.548);
-    
+    position: fixed;
+    z-index: 10;
+    background-color: white;
 }
 .Navbar .logo{
     color: black;

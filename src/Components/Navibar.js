@@ -12,13 +12,13 @@ function Navibar() {
     return (
         <div className="navigation">
           <Router>
-            <Navbar/>
+             <Navbar/> 
             <Switch>
                 <Route exact path='/' component={Home}></Route>
                 <Route path ='/notifications' component={Notifications}></Route>
                 <Route path ='/profile' component={Profile}></Route>
                 <Route path ='/create' component={Create}></Route>
-                <Route path ='/profile' component={Settings}></Route>
+                <Route path ='/settings' component={Settings}></Route>
             </Switch>
           </Router>
         </div>

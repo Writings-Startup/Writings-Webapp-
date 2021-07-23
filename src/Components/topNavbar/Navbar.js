@@ -12,6 +12,7 @@ function Navbar() {
   const closeMobileMenu = ()=> setclick(false)  
 
     return (
+     
     <nav className="Navbar">
       <h1 className="logo">Logoname</h1>
       <div className="menu-icon" onClick={handleClick}>
@@ -37,6 +38,7 @@ function Navbar() {
         </li>
       </ul>
     </nav>
+   
     )
 }
 
