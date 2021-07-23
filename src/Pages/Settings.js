@@ -1,9 +1,10 @@
 import React from 'react'
+import SettingsAccount from '../Components/SettingsAccount.js'
 
 function Settings() {
     return (
         <div>
-            Settings page
+          <SettingsAccount/>
         </div>
     )
 }
