@@ -1,9 +1,16 @@
 import React from 'react'
+import CreatePage from '../Components/CreatePage'
+import LeftNavibar from '../Components/LeftNavibar'
 
 function Create() {
     return (
         <div>
-            Create page
+            <LeftNavibar/>
+            
+
+                <CreatePage/>
+
+       
             
         </div>
     )
