@@ -6,12 +6,7 @@ function Create() {
     return (
         <div>
             <LeftNavibar/>
-            
-
-                <CreatePage/>
-
-       
-            
+            <CreatePage/>
         </div>
     )
 }
