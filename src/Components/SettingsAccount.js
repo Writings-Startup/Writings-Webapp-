@@ -31,9 +31,9 @@ function SettingsAccount() {
         
           <div  className="accout-settings">
             <h3 className="acc-title">Account</h3>
-            <p1 className="acc-tag">Account settings is used to manage any basic account preferences. You can edit your name and email address,</p1>
+            <p1 className="ap-tag">Account settings is used to manage any basic account preferences. You can edit your name and email address,</p1>
             <h4 className="pro-title">Profile</h4>
-            <p2 className="pro-tag">This information displayed publically</p2>
+            <p2 className="ap-tag">This information displayed publically</p2>
           
           
           <div className="name-section">
@@ -108,14 +108,14 @@ function SettingsAccount() {
           <table >
                     <tbody>
                        <tr>
-                           <td ><p3 className="e-title">Email id</p3></td>
+                           <td ><p3 className="f-title">Email id</p3></td>
                            <td ><p3 className="n-title">Phone number</p3></td>
                            
                        </tr>
                                 <tr>
                                   
-                        <td ><input class="i-name"   type="text" placeholder="eg:azhar@gamail.com"/></td>
-                        <td> <input class="p-name" type="text" placeholder="eg:947759...."/></td>
+                        <td ><input class="f-name"   type="text" placeholder="eg:azhar@gamail.com"/></td>
+                        <td> <input class="l-name" type="text" placeholder="eg:947759...."/></td>
                                 </tr>
 
                             </tbody>
@@ -131,17 +131,17 @@ function SettingsAccount() {
                     <tbody>
                        <tr>
                            <td ><p3 className="f-title">Gender</p3></td>
-                           <td ><p3 className="c-title">Country</p3></td>
+                           <td ><p3 className="n-title">Country</p3></td>
                        </tr>
                                 <tr>
-                                <td>  <select class="gen-bar">
+                                <td>  <select class="f-name">
                 <option value="">Select Gender</option>
                 <option value="">Male</option>
                 <option value="">Female</option>
                 <option value="">Others</option>
                                  </select></td>
                                  <td>
-                                 <select class="form-control">
+                                 <select class="l-name">
                 <option value="Afghanistan">Select country</option>                    
                 <option value="Afghanistan">Afghanistan</option>
                 <option value="Åland Islands">Åland Islands</option>
