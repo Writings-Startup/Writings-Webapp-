@@ -1,242 +1,195 @@
 import React from 'react'
 import"../Css/Settings.css"
-import ReactTable from "react-table";
-
-
 
 
 function SettingsAccount() {
     return (
-        <div className="full-box">
-            <div className="leftnavsetti" >
-        <div className="void"></div>
-            <div className="matter-inside">
-            <a href='#' className="icon-s"><i class="fa fa-user-o" ></i><span className="matter" >Account</span></a>
-            </div>  
-            <div className="matter-inside">
-            <a href='#' className="icon-s"><i class="fa fa-suitcase" ></i><span className="matter" >privacy</span></a>
-             </div>  
-            <div className="matter-inside">
-            <a href='#' className="icon-s"><i  class="fa fa-unlock-alt" aria-hidden="true"></i><span className="matter" >Security</span></a>
-                </div>
-            <div className="matter-inside">
-            <a href='#' className="icon-s"><i class="fa fa-bullhorn" aria-hidden="true"></i><span className="matter" >Notification</span></a>
-            </div>
-            <div className="matter-inside">
-            <a href='#' className="icon-s"><i class="fa fa-question" aria-hidden="true"></i><span className="matter" >Help</span></a>
-            </div>
-          </div>
-          
-             
-        
-          <div  className="accout-settings">
+    <div className="total-body">
+      <div  className="accout-settings">
             <h3 className="acc-title">Account</h3>
             <p1 className="ap-tag">Account settings is used to manage any basic account preferences. You can edit your name and email address,</p1>
             <h4 className="pro-title">Profile</h4>
             <p2 className="ap-tag">This information displayed publically</p2>
           
-          
           <div className="name-section">
-          <form >
-          <table >
-                    <tbody>
-                       <tr>
-                           <td ><p3 className="f-title">Name</p3></td>
-                           
-                       </tr>
-                                <tr>
-                                  
-                        <td ><input class="f-name"   type="text" placeholder="First Name"/></td>
-                        <td> <input class="l-name" type="text" placeholder="Last Name"/></td>
-                                </tr>
-
-                            </tbody>
-                               
-                        </table>
-                  
+           <form >
+            <table >
+              <tbody>
+                <tr>
+                  <td ><p3 className="f-title">Name</p3></td>
+                </tr>
+                <tr>
+                  <td ><input class="f-name"   type="text" placeholder="First Name"/></td>
+                  <td> <input class="l-name" type="text" placeholder="Last Name"/></td>
+                </tr>
+              </tbody>
+            </table>
           </form>
-      
-        </div>
+         </div>
+        
         <div className="user-section">
-          <form >
+         <form >
           <table >
-                    <tbody>
-                       <tr>
-                           <td ><p4 className="u-title">User</p4></td>
-                           
-                       </tr>
-                                <tr>
-                                  
-                        <td ><input class="u-name"   type="text" placeholder="eg:akshay123"/></td>
+            <tbody>
+              <tr>
+                <td ><p4 className="u-title">User</p4></td>
+              </tr>
+              <tr>
+                <td ><input class="u-name"   type="text" placeholder="eg:akshay123"/></td>
+              </tr>
+            </tbody>
+          </table>
+         </form>
+       </div>
+        
+       <div className="about-section">
+        <form >
+         <table >
+          <tbody>
+            <tr>
+              <td ><p5 className="a-title">About</p5></td>
+             </tr>
+             <tr>
+              <td ><input class="about"   type="text" placeholder="Bio"/></td>
+             </tr>
+           </tbody>
+          </table>
+        </form>
+      </div>
 
-                                </tr>
-
-                            </tbody>
-                               
-                        </table>
-                  
-          </form>
-      
-        </div>
-        <div className="about-section">
-          <form >
-          <table >
-                    <tbody>
-                       <tr>
-                           <td ><p5 className="a-title">About</p5></td>
-                           
-                       </tr>
-                                <tr>
-                                  
-                        <td ><input class="about"   type="text" placeholder="Bio"/></td>
-
-                                </tr>
-
-                            </tbody>
-                               
-                        </table>
-                  
-          </form>
-      
-        </div>
         <div className="pi-space">
-        <p6 className="pi-title">Personal information</p6>
+          <p6 className="pi-title">Personal information</p6>
         </div>
 
         <div className="email-section">
-          <form >
-          <table >
-                    <tbody>
-                       <tr>
-                           <td ><p3 className="f-title">Email id</p3></td>
-                           <td ><p3 className="n-title">Phone number</p3></td>
-                           
-                       </tr>
-                                <tr>
-                                  
-                        <td ><input class="f-name"   type="text" placeholder="eg:azhar@gamail.com"/></td>
-                        <td> <input class="l-name" type="text" placeholder="eg:947759...."/></td>
-                                </tr>
-
-                            </tbody>
-                               
-                        </table>
-                  
-          </form>
-      
+         <form >
+           <table >
+             <tbody>
+              <tr>
+               <td ><p3 className="f-title">Email address</p3></td>
+               <td ><p3 className="n-title">Phone number</p3></td>
+              </tr>
+              <tr>
+                <td ><input class="f-name"   type="text" placeholder="eg:azhar@gmail.com"/></td>
+                <td> <input class="l-name" type="text" placeholder="eg:947759...."/></td>
+              </tr>
+             </tbody>
+            </table>
+           </form>
         </div>
+
         <div className="gc-section">
-          <form >
-          <table >
-                    <tbody>
-                       <tr>
-                           <td ><p3 className="f-title">Gender</p3></td>
-                           <td ><p3 className="n-title">Country</p3></td>
-                       </tr>
-                                <tr>
-                                <td>  <select class="f-name">
-                <option value="">Select Gender</option>
-                <option value="">Male</option>
-                <option value="">Female</option>
-                <option value="">Others</option>
-                                 </select></td>
-                                 <td>
-                                 <select class="l-name">
-                <option value="Afghanistan">Select country</option>                    
-                <option value="Afghanistan">Afghanistan</option>
-                <option value="Åland Islands">Åland Islands</option>
-                <option value="Albania">Albania</option>
-                <option value="Algeria">Algeria</option>
-                <option value="American Samoa">American Samoa</option>
-                <option value="Andorra">Andorra</option>
-                <option value="Angola">Angola</option>
-                <option value="Anguilla">Anguilla</option>
-                <option value="Antarctica">Antarctica</option>
-                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                <option value="Argentina">Argentina</option>
-                <option value="Armenia">Armenia</option>
-                <option value="Aruba">Aruba</option>
-                <option value="Australia">Australia</option>
-                <option value="Austria">Austria</option>
-                <option value="Azerbaijan">Azerbaijan</option>
-                <option value="Bahamas">Bahamas</option>
-                <option value="Bahrain">Bahrain</option>
-                <option value="Bangladesh">Bangladesh</option>
-                <option value="Barbados">Barbados</option>
-                <option value="Belarus">Belarus</option>
-                <option value="Belgium">Belgium</option>
-                <option value="Belize">Belize</option>
-                <option value="Benin">Benin</option>
-                <option value="Bermuda">Bermuda</option>
-                <option value="Bhutan">Bhutan</option>
-                <option value="Bolivia">Bolivia</option>
-                <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
-                <option value="Botswana">Botswana</option>
-                <option value="Bouvet Island">Bouvet Island</option>
-                <option value="Brazil">Brazil</option>
-                <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
-                <option value="Brunei Darussalam">Brunei Darussalam</option>
-                <option value="Bulgaria">Bulgaria</option>
-                <option value="Burkina Faso">Burkina Faso</option>
-                <option value="Burundi">Burundi</option>
-                <option value="Cambodia">Cambodia</option>
-                <option value="Cameroon">Cameroon</option>
-                <option value="Canada">Canada</option>
-                <option value="Cape Verde">Cape Verde</option>
-                <option value="Cayman Islands">Cayman Islands</option>
-                <option value="Central African Republic">Central African Republic</option>
-                <option value="Chad">Chad</option>
-                <option value="Chile">Chile</option>
-                <option value="China">China</option>
-                <option value="Christmas Island">Christmas Island</option>
-                <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
-                <option value="Colombia">Colombia</option>
-                <option value="Comoros">Comoros</option>
-                <option value="Congo">Congo</option>
-                <option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option>
-                <option value="Cook Islands">Cook Islands</option>
-                <option value="Costa Rica">Costa Rica</option>
-                <option value="Cote D'ivoire">Cote D'ivoire</option>
-                <option value="Croatia">Croatia</option>
-                <option value="Cuba">Cuba</option>
-                <option value="Cyprus">Cyprus</option>
-                <option value="Czech Republic">Czech Republic</option>
-                <option value="Denmark">Denmark</option>
-                <option value="Djibouti">Djibouti</option>
-                <option value="Dominica">Dominica</option>
-                <option value="Dominican Republic">Dominican Republic</option>
-                <option value="Ecuador">Ecuador</option>
-                <option value="Egypt">Egypt</option>
-                <option value="El Salvador">El Salvador</option>
-                <option value="Equatorial Guinea">Equatorial Guinea</option>
-                <option value="Eritrea">Eritrea</option>
-                <option value="Estonia">Estonia</option>
-                <option value="Ethiopia">Ethiopia</option>
-                <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
-                <option value="Faroe Islands">Faroe Islands</option>
-                <option value="Fiji">Fiji</option>
-                <option value="Finland">Finland</option>
-                <option value="France">France</option>
-                <option value="French Guiana">French Guiana</option>
-                <option value="French Polynesia">French Polynesia</option>
-                <option value="French Southern Territories">French Southern Territories</option>
-                <option value="Gabon">Gabon</option>
-                <option value="Gambia">Gambia</option>
-                <option value="Georgia">Georgia</option>
-                <option value="Germany">Germany</option>
-                <option value="Ghana">Ghana</option>
-                <option value="Gibraltar">Gibraltar</option>
-                <option value="Greece">Greece</option>
-                <option value="Greenland">Greenland</option>
-                <option value="Grenada">Grenada</option>
-                <option value="Guadeloupe">Guadeloupe</option>
-                <option value="Guam">Guam</option>
-                <option value="Guatemala">Guatemala</option>
-                <option value="Guernsey">Guernsey</option>
-                <option value="Guinea">Guinea</option>
-                <option value="Guinea-bissau">Guinea-bissau</option>
-                <option value="Guyana">Guyana</option>
-                <option value="Haiti">Haiti</option>
+        <form >
+         <table >
+           <tbody>
+             <tr>
+               <td ><p3 className="f-title">Gender</p3></td>
+               <td ><p3 className="n-title">Country</p3></td>
+              </tr>
+              <tr>
+                <td>  <select class="f-name">
+                 <option value="">Select Gender</option>
+                 <option value="">Male</option>
+                 <option value="">Female</option>
+                 <option value="">Others</option>
+                </select></td>
+
+                <td><select class="l-name">
+                 <option value="Afghanistan">Select country</option>                    
+                 <option value="Afghanistan">Afghanistan</option>
+                 <option value="Åland Islands">Åland Islands</option>
+                 <option value="Albania">Albania</option>
+                 <option value="Algeria">Algeria</option>
+                 <option value="American Samoa">American Samoa</option>
+                 <option value="Andorra">Andorra</option>
+                 <option value="Angola">Angola</option>
+                 <option value="Anguilla">Anguilla</option>
+                 <option value="Antarctica">Antarctica</option>
+                 <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                 <option value="Argentina">Argentina</option>
+                 <option value="Armenia">Armenia</option>
+                 <option value="Aruba">Aruba</option>
+                 <option value="Australia">Australia</option>
+                 <option value="Austria">Austria</option>
+                 <option value="Azerbaijan">Azerbaijan</option>
+                 <option value="Bahamas">Bahamas</option>
+                 <option value="Bahrain">Bahrain</option>
+                 <option value="Bangladesh">Bangladesh</option>
+                 <option value="Barbados">Barbados</option>
+                 <option value="Belarus">Belarus</option>
+                 <option value="Belgium">Belgium</option>
+                 <option value="Belize">Belize</option>
+                 <option value="Benin">Benin</option>
+                 <option value="Bermuda">Bermuda</option>
+                 <option value="Bhutan">Bhutan</option>
+                 <option value="Bolivia">Bolivia</option>
+                 <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                 <option value="Botswana">Botswana</option>
+                 <option value="Bouvet Island">Bouvet Island</option>
+                 <option value="Brazil">Brazil</option>
+                 <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                 <option value="Brunei Darussalam">Brunei Darussalam</option>
+                 <option value="Bulgaria">Bulgaria</option>
+                 <option value="Burkina Faso">Burkina Faso</option>
+                 <option value="Burundi">Burundi</option>
+                 <option value="Cambodia">Cambodia</option>
+                 <option value="Cameroon">Cameroon</option>
+                 <option value="Canada">Canada</option>
+                 <option value="Cape Verde">Cape Verde</option>
+                 <option value="Cayman Islands">Cayman Islands</option>
+                 <option value="Central African Republic">Central African Republic</option>
+                 <option value="Chad">Chad</option>
+                 <option value="Chile">Chile</option>
+                 <option value="China">China</option>
+                 <option value="Christmas Island">Christmas Island</option>
+                 <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+                 <option value="Colombia">Colombia</option>
+                 <option value="Comoros">Comoros</option>
+                 <option value="Congo">Congo</option>
+                 <option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option>
+                 <option value="Cook Islands">Cook Islands</option>
+                 <option value="Costa Rica">Costa Rica</option>
+                 <option value="Cote D'ivoire">Cote D'ivoire</option>
+                 <option value="Croatia">Croatia</option>
+                 <option value="Cuba">Cuba</option>
+                 <option value="Cyprus">Cyprus</option>
+                 <option value="Czech Republic">Czech Republic</option>
+                 <option value="Denmark">Denmark</option>
+                 <option value="Djibouti">Djibouti</option>
+                 <option value="Dominica">Dominica</option>
+                 <option value="Dominican Republic">Dominican Republic</option>
+                 <option value="Ecuador">Ecuador</option>
+                 <option value="Egypt">Egypt</option>
+                 <option value="El Salvador">El Salvador</option>
+                 <option value="Equatorial Guinea">Equatorial Guinea</option>
+                 <option value="Eritrea">Eritrea</option>
+                 <option value="Estonia">Estonia</option>
+                 <option value="Ethiopia">Ethiopia</option>
+                 <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+                 <option value="Faroe Islands">Faroe Islands</option>
+                 <option value="Fiji">Fiji</option>
+                 <option value="Finland">Finland</option>
+                 <option value="France">France</option>
+                 <option value="French Guiana">French Guiana</option>
+                 <option value="French Polynesia">French Polynesia</option>
+                 <option value="French Southern Territories">French Southern Territories</option>
+                 <option value="Gabon">Gabon</option>
+                 <option value="Gambia">Gambia</option>
+                 <option value="Georgia">Georgia</option>
+                 <option value="Germany">Germany</option>
+                 <option value="Ghana">Ghana</option>
+                 <option value="Gibraltar">Gibraltar</option>
+                 <option value="Greece">Greece</option>
+                 <option value="Greenland">Greenland</option>
+                 <option value="Grenada">Grenada</option>
+                 <option value="Guadeloupe">Guadeloupe</option>
+                 <option value="Guam">Guam</option>
+                 <option value="Guatemala">Guatemala</option>
+                 <option value="Guernsey">Guernsey</option>
+                 <option value="Guinea">Guinea</option>
+                 <option value="Guinea-bissau">Guinea-bissau</option>
+                 <option value="Guyana">Guyana</option>
+                 <option value="Haiti">Haiti</option>
                 <option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
                 <option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
                 <option value="Honduras">Honduras</option>
@@ -387,45 +340,33 @@ function SettingsAccount() {
                 <option value="Yemen">Yemen</option>
                 <option value="Zambia">Zambia</option>
                 <option value="Zimbabwe">Zimbabwe</option>
-            </select>
-
-
-                                 </td>
-                                </tr>
-
-                            </tbody>
-                               
-                        </table>
-                  
-          </form>
-      
-        </div> 
+                 </select></td>
+                </tr>
+               </tbody>
+             </table>
+           </form>
+         </div> 
         
     <div className="sav-button">
-    <p className="d-tag">I hereby declare that the details and information given above are complete and true to the best of my knowledge</p>
-        <form >
-          <table >
-                    <tbody>
-                      
-                    
-                                <tr>           
-                        <td ><input className="can"  value="Cancel" type="Submit"/></td>
-                        <td> <input className="sav"  value="Save" type="Submit"/></td>
-                                </tr>
-
-                    </tbody>    
-                               
-            </table>
-                  
-          </form>
-      
+        <p className="d-tag">I hereby declare that the details and information given above are complete and true to the best of my knowledge</p>
+      <form >
+       <table >
+        <tbody>
+          <tr>           
+            <td ><input className="can"  value="Cancel" type="Submit"/></td>
+            <td> <input className="sav"  value="Save" type="Submit"/></td>
+          </tr>
+        </tbody>    
+       </table>
+      </form>
     </div>
-        <div className="footer-setti"><p>© 2021</p> </div>
+
+    <div className="footer-setti"><p>© 2021</p> </div>
        
-          </div>
+  </div>
           
           
-          </div>
+</div>
     )
 }
 

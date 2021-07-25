@@ -1,30 +1,29 @@
 import React from 'react'
 import "../Css/LeftNavibar.css"
 
-function LeftNavibar() {
+function LeftNavibar(props) {
 
     return (
-        <div className="body" >
+        <div className="full-box" >
         
-        <div className="null">
-                
-        </div>
-            <div className="content-box">
-                <a href='#' className="link"><i className="fas fa-rss-square"></i><span className="span" >Feed</span></a>
+        <div className="leftnavsetti" >
+        <div className="void"></div>
+            <div className="matter-inside">
+            <p1 href='#' className="icon-s"><i class={props.icon1} ></i><span className="matter" >{props.colone}</span></p1>
             </div>  
-            <div className="content-box">
-                <a href='#' className="link"><i class="far fa-list-alt"></i><span className="span" >Read list</span></a>
+            <div className="matter-inside">
+            <p2 href='#' className="icon-s"><i class={props.icon2} ></i><span className="matter" >{props.coltwo}</span></p2>
              </div>  
-            <div className="content-box">
-            <a href='#' className="link"><i class="far fa-star"></i><span className="span" >Popular</span></a>
+            <div className="matter-inside">
+            <p3 href='#' className="icon-s"><i  class={props.icon3} aria-hidden="true"></i><span className="matter" >{props.colthree}</span></p3>
                 </div>
-            <div className="content-box">
-            <a href='#' className="link"><i class="far fa-calendar-alt"></i><span className="span" >Events</span></a>
+            <div className="matter-inside">
+            <p4 href='#' className="icon-s"><i class={props.icon4} aria-hidden="true"></i><span className="matter" >{props.colfour}</span></p4>
             </div>
-            <div className="content-box">
-            <a href='#' className="link"><i class="fas fa-fire"></i><span className="span" >Trend</span></a>
+            <div className="matter-inside">
+            <p5 href='#' className="icon-s"><i class={props.icon5} aria-hidden="true"></i><span className="matter" >{props.colfive}</span></p5>
             </div>
-
+          </div>
 
           </div>
         
