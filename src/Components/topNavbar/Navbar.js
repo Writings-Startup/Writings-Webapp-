@@ -1,8 +1,6 @@
 import React from 'react'
 import "./Navbar.css"
 import { useState } from 'react';
-import CreateBtn from './CreateBtn';
-import Searchbar from './Searchbar';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -19,10 +17,10 @@ function Navbar() {
         <i className={click ? 'fa fa-times' : 'fa fa-bars'}></i>
       </div>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-        <li className='nav-item'>
-          
-        </li>
-        <Searchbar/>
+        <li className='nav-item'></li>
+        <form className="search">
+                <input className="search-box" type="text" placeholder="Search here"></input>
+            </form>
         <li className='nav-item'>
           <Link to="/" className="nav-links" onClick={closeMobileMenu}>Home</Link>
         </li>
@@ -32,7 +30,11 @@ function Navbar() {
         <li className='nav-item'>
           <Link to="/profile" className="nav-links" onClick={closeMobileMenu}>Profile</Link>
         </li>
-        <CreateBtn/>
+        <li className='nav-item'>
+          <Link to="/create" className="nav-link" onClick={closeMobileMenu}>
+            <button className='Createbtn'>Create</button>
+          </Link>
+        </li>
         <li className='nav-item'>
           <Link to="/settings" className="nav-links" onClick={closeMobileMenu}>Settings</Link>
         </li>

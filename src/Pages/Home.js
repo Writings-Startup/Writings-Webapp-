@@ -1,6 +1,6 @@
 import React from 'react'
+import Feeds from '../Components/Feeds/Feeds'
 import LeftNavibar from "../Components/LeftNavibar"
-import Newsfeed from "../Components/Newsfeed"
 import "../Css/Home.css"
 
 function Home() {
@@ -8,8 +8,11 @@ function Home() {
         
         <div className="home-main">
             
-            <LeftNavibar/>
-            <Newsfeed/>
+           <LeftNavibar/>
+        <div className="feedss">
+
+            <Feeds/>
+        </div>
             
         </div>
 

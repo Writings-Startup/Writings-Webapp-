@@ -1,6 +1,4 @@
-.nav-bar{
-    position:fixed
-}
+
 .Navbar{
     
     display: flex;
@@ -46,6 +44,36 @@
 .menu-icon{
     align-items: center;
     display: none;
+}
+.Createbtn{
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background: #FFE930;
+
+}
+.Createbtn:hover{
+    
+    transition: all 0.3s ease-out;
+    background-color: rgb(184, 250, 131);
+    border-radius: 4px;
+    color: black;
+    
+}
+.search .search-box{
+    margin-top: 1.5rem;
+    text-align: start;
+    font-weight: 200;
+    width: 22rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding: 5px 20px;
+    background: #e9f4f8;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
 }
 @media screen and (max-width:960px) {
     .Navbar{

@@ -7,8 +7,9 @@ import SignupForm from './Components/signup/SignupForm'
 function App() {
   return (
     <div className="App">
-         <Navibar/>
-      {/*<SignupForm/>*/}  
+
+      <Navibar/>
+     {/*<SignupForm/>*/}
     </div>
   );
 }
