@@ -1,8 +1,10 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './feeds.css'
 
 
+
 function Feeds() {
+
     return (
         <div className="homeFeed">
             
@@ -16,7 +18,7 @@ function Feeds() {
                     <h3 className="feedshr">Learning From The Sea</h3>
                      <p className="analytic">53K views  •  2 weeks ago</p>
                 </div>
-            </div>
+             </div> 
         </div>
     )
 }
