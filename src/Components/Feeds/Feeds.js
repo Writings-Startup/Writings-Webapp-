@@ -1,13 +1,11 @@
 import React,{useState} from 'react'
 import './feeds.css'
 
-
-
 function Feeds() {
 
     return (
+
     <div className="ccards">
-        
         <div className="cards__item">
             <div className="card">
                 <img className="feed-pic" src="Assets/images/Group 369.jpg" alt="feed-pic" ></img>
