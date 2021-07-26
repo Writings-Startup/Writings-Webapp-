@@ -4,18 +4,19 @@ import '../Css/create.css'
 function CreatePage() {
     return (
         <div className="Create"> 
-            <h1 className="create-hr"> Create page </h1>
+            <h1 className="create-hr"> Create Page </h1>
             
           <form >
      
-              <label className="Title">Title</label>
+              <label className="Title-c">Title</label>
 
               <div className="">
 
               <input className="untitle" type="text" placeholder="Untitle" /> 
               </div>
               <div>
-              <label className="category">Category</label>
+              <label className="category-c">Category</label> <br>
+              </br>
               <select className="selectCategory">
                   <option className="option" value=""> Select Category </option>
                   <option className="option" value="Auto Biography "> Auto biography </option>
@@ -34,7 +35,8 @@ function CreatePage() {
               </select>
               </div>
               <div>
-              <label className="language">Language</label>
+              <label className="language-c">Language</label><br>
+              </br>
               <select className="selectLanguage">
                   <option className="option" value=""> Select Language </option>
                   

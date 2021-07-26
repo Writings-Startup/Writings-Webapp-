@@ -16,7 +16,7 @@ function SettingsAccount() {
             <table >
               <tbody>
                 <tr>
-                  <td ><p3 className="f-title">Name</p3></td>
+                  <td ><label className="f-title">Name</label></td>
                 </tr>
                 <tr>
                   <td ><input class="f-name"   type="text" placeholder="First Name"/></td>
@@ -32,7 +32,7 @@ function SettingsAccount() {
           <table >
             <tbody>
               <tr>
-                <td ><p4 className="u-title">User</p4></td>
+                <td ><label className="u-title">User</label></td>
               </tr>
               <tr>
                 <td ><input class="u-name"   type="text" placeholder="eg:akshay123"/></td>
@@ -47,10 +47,10 @@ function SettingsAccount() {
          <table >
           <tbody>
             <tr>
-              <td ><p5 className="a-title">About</p5></td>
+              <td ><label className="a-title">About</label></td>
              </tr>
              <tr>
-              <td ><input class="about"   type="text" placeholder="Bio"/></td>
+              <td ><input class="about-s"   type="text" placeholder="Bio"/></td>
              </tr>
            </tbody>
           </table>
@@ -58,7 +58,7 @@ function SettingsAccount() {
       </div>
 
         <div className="pi-space">
-          <p6 className="pi-title">Personal information</p6>
+          <label className="pi-title">Personal information</label>
         </div>
 
         <div className="email-section">
@@ -66,8 +66,8 @@ function SettingsAccount() {
            <table >
              <tbody>
               <tr>
-               <td ><p3 className="f-title">Email address</p3></td>
-               <td ><p3 className="n-title">Phone number</p3></td>
+               <td ><label className="f-title">Email address</label></td>
+               <td ><label className="n-title">Phone number</label></td>
               </tr>
               <tr>
                 <td ><input class="f-name"   type="text" placeholder="eg:azhar@gmail.com"/></td>
@@ -83,8 +83,8 @@ function SettingsAccount() {
          <table >
            <tbody>
              <tr>
-               <td ><p3 className="f-title">Gender</p3></td>
-               <td ><p3 className="n-title">Country</p3></td>
+               <td ><label className="f-title">Gender</label></td>
+               <td ><label className="n-title">Country</label></td>
               </tr>
               <tr>
                 <td>  <select class="f-name">
