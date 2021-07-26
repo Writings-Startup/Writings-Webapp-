@@ -8,7 +8,8 @@ function Home() {
         
         <div className="home-main">
             
-           <LeftNavibar/>
+           <LeftNavibar name="hai" second="hello"/>
+           
         <div className="feedss">
 
             <Feeds/>
