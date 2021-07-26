@@ -5,15 +5,18 @@ import './feeds.css'
 function Feeds() {
     return (
         <div className="homeFeed">
-            <h1 className="feedhr"> Feeds</h1>
-            <div className="feeds-container">
-                <span className="feed-card">
-
-                </span>
-                
-            </div>
-
             
+            <div className="card">
+                <img src="/Assets/images/Group 369.jpg" alt="photo placed" className="feedsphoto" ></img>
+                <div className="mcard">
+                    <div className="pro">
+                        <img src="/Assets/images/image 10.jpg" alt="profile" className="profilepic" ></img>
+                        <p className="profile-name"> Andy William</p>
+                    </div>
+                    <h3 className="feedshr">Learning From The Sea</h3>
+                     <p className="analytic">53K views  •  2 weeks ago</p>
+                </div>
+            </div>
         </div>
     )
 }
