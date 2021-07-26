@@ -20,7 +20,7 @@ function Navbar() {
         <li className='nav-item'></li>
         <form className="search">
                 <input className="search-box" type="text" placeholder="Search here"></input>
-            </form>
+          </form>
         <li className='nav-item'>
           <Link to="/" className="nav-links" onClick={closeMobileMenu}>Home</Link>
         </li>
