@@ -24,6 +24,7 @@
     background: #242730;
     color: white;
     border-radius: 10px;
+    z-index:-1;
 }
 .feed-pic{
     width:100%; 
