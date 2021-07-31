@@ -4,7 +4,7 @@ import '../Css/create.css'
 function CreatePage() {
     return (
         <div className="Create"> 
-            <h1 className="create-hr"> Create Page </h1>
+            
             
           <form >
      
@@ -15,9 +15,9 @@ function CreatePage() {
               <input className="untitle" type="text" placeholder="Untitle" /> 
               </div>
               <div>
-              <label className="category-c">Category</label> <br>
+              <label className="Title-c">Category</label> <br>
               </br>
-              <select className="selectCategory">
+              <select className="untitle">
                   <option className="option" value=""> Select Category </option>
                   <option className="option" value="Auto Biography "> Auto biography </option>
                   <option className="option" value="Biography"> Biography </option>
@@ -34,10 +34,11 @@ function CreatePage() {
                   <option className="option" value="Tavelougs "> Travelougs </option>
               </select>
               </div>
-              <div>
-              <label className="language-c">Language</label><br>
+             
+              <label className="Title-Lan">Language</label><br>
               </br>
-              <select className="selectLanguage">
+              <div>
+              <select className="untitle">
                   <option className="option" value=""> Select Language </option>
                   
                   <option className="option" value="Bengali "> Bengali </option>
@@ -55,6 +56,15 @@ function CreatePage() {
 
               </select>
               </div>
+              <label className="Title-Lan">Tagline</label>
+
+              <div className="">
+
+              <input className="untitle" type="text" placeholder="Enter Tagline" /> 
+              </div>
+              <div >
+                     <input class="submit"  value="Save & Next" type="submit" />
+                    </div>
             
           </form>
       
