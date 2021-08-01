@@ -9,7 +9,7 @@ function Notifications() {
     return (
         <div>
             <LeftNavbarmain/>
-              <NotificationsPage/>
+            <NotificationsPage/>
         </div>
     )
 }
