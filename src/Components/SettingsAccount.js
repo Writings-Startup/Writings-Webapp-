@@ -335,7 +335,7 @@ function SettingsAccount() {
         <p className="d-tag">I hereby declare that the details and information given above are complete and true to the best of my knowledge</p>
       <div className="sav-button">
       <form >
-      <button className="can" type="button" >Cancel</button>
+      <button className="can" type="submit" >Cancel</button>
       <button className="sav" type="Submit" >Save</button>
      </form>
       </div>
