@@ -7,9 +7,9 @@ function SettingsAccount() {
     <div className="total-body">
       <div  className="accout-settings">
             <h3 className="acc-title">Account</h3>
-            <p1 className="ap-tag">Account settings is used to manage any basic account preferences. You can edit your name and email address,</p1>
+            <p className="ap-tag">Account settings is used to manage any basic account preferences. You can edit your name and email address,</p>
             <h4 className="pro-title">Profile</h4>
-            <p2 className="ap-tag">This information displayed publically</p2>
+            <p className="ap-tag">This information displayed publically</p>
           
           <div className="name-section">
            <form >
@@ -19,8 +19,8 @@ function SettingsAccount() {
                   <td ><label className="f-title">Name</label></td>
                 </tr>
                 <tr>
-                  <td ><input class="f-name"   type="text" placeholder="First Name"/></td>
-                  <td> <input class="l-name" type="text" placeholder="Last Name"/></td>
+                  <td ><input className="f-name"   type="text" placeholder="First Name"/></td>
+                  <td> <input className="l-name" type="text" placeholder="Last Name"/></td>
                 </tr>
               </tbody>
             </table>
@@ -28,33 +28,17 @@ function SettingsAccount() {
          </div>
         
         <div className="user-section">
-         <form >
-          <table >
-            <tbody>
-              <tr>
-                <td ><label className="u-title">User</label></td>
-              </tr>
-              <tr>
-                <td ><input class="u-name"   type="text" placeholder="eg:akshay123"/></td>
-              </tr>
-            </tbody>
-          </table>
-         </form>
+          <form >
+                 <label className="u-title">Username</label>
+                 <input className="u-name"   type="text" placeholder="eg:@user_name"/>
+          </form>
        </div>
         
        <div className="about-section">
-        <form >
-         <table >
-          <tbody>
-            <tr>
-              <td ><label className="a-title">About</label></td>
-             </tr>
-             <tr>
-              <td ><input class="about-s"   type="text" placeholder="Bio"/></td>
-             </tr>
-           </tbody>
-          </table>
-        </form>
+         <form>
+               <label className="a-title">About</label>
+               <input className="about-s"   type="text" placeholder=""/>
+          </form>
       </div>
 
         <div className="pi-space">
@@ -70,8 +54,8 @@ function SettingsAccount() {
                <td ><label className="n-title">Phone number</label></td>
               </tr>
               <tr>
-                <td ><input class="f-name"   type="text" placeholder="eg:azhar@gmail.com"/></td>
-                <td> <input class="l-name" type="text" placeholder="eg:947759...."/></td>
+                <td ><input className="f-name"   type="text" placeholder="eg:azhar@gmail.com"/></td>
+                <td> <input className="l-name" type="text" placeholder="eg:947759...."/></td>
               </tr>
              </tbody>
             </table>
@@ -87,14 +71,14 @@ function SettingsAccount() {
                <td ><label className="n-title">Country</label></td>
               </tr>
               <tr>
-                <td>  <select class="f-name">
+                <td>  <select className="f-name">
                  <option value="">Select Gender</option>
                  <option value="">Male</option>
                  <option value="">Female</option>
                  <option value="">Others</option>
                 </select></td>
 
-                <td><select class="l-name">
+                <td><select className="l-name">
                  <option value="Afghanistan">Select country</option>                    
                  <option value="Afghanistan">Afghanistan</option>
                  <option value="Åland Islands">Åland Islands</option>
@@ -347,18 +331,14 @@ function SettingsAccount() {
            </form>
          </div> 
         
-    <div className="sav-button">
+    <div className="sav-tag">
         <p className="d-tag">I hereby declare that the details and information given above are complete and true to the best of my knowledge</p>
+      <div className="sav-button">
       <form >
-       <table >
-        <tbody>
-          <tr>           
-            <td ><input className="can"  value="Cancel" type="Submit"/></td>
-            <td> <input className="sav"  value="Save" type="Submit"/></td>
-          </tr>
-        </tbody>    
-       </table>
-      </form>
+      <button className="can" type="button" >Cancel</button>
+      <button className="sav" type="Submit" >Save</button>
+     </form>
+      </div>
     </div>
 
     <div className="footer-setti"><p>© 2021</p> </div>
