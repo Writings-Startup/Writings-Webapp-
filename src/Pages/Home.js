@@ -1,6 +1,6 @@
 import React from 'react'
 import Feeds from '../Components/Feeds/Feeds'
-import LeftNavibar from "../Components/LeftNavibar"
+import LeftNavbarmain from '../Components/LeftNavibar/LeftNavbarmain'
 import "../Css/Home.css"
 
 
@@ -9,12 +9,7 @@ function Home() {
         
         <div className="home-main">
             
-            <LeftNavibar
-             icon1="fa fa-rss" colone="Feeds"
-             icon2="fa fa-users" coltwo="magazine"
-             icon3="fa fa-free-code-camp" colthree="Booming"
-             icon4="fa fa-book" colfour="Guide"
-             icon5="fa fa-flag-checkered" colfive="Events"/>
+            <LeftNavbarmain/>
            
         <div className="feedss">
 
