@@ -10,6 +10,7 @@ function Notifications() {
         <div>
             <LeftNavbarmain/>
             <NotificationsPage/>
+ 
         </div>
     )
 }
