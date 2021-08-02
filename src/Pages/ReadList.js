@@ -1,20 +1,15 @@
 import React from 'react'
-
 import LeftNavbarmain from '../Components/LeftNavibar/LeftNavbarmain'
-import NotificationsPage from '../Components/NotificationsPage'
+import ReadListPage from '../Components/ReadListPage'
 
-
- 
-function Notifications() {
+function ReadList() {
     return (
         <div>
-
-           
             <LeftNavbarmain/>
-            <NotificationsPage/>
- 
+            <ReadListPage/>
+            
         </div>
     )
 }
 
-export default Notifications
+export default ReadList
