@@ -52,7 +52,7 @@ function LeftNavbarmain() {
                         
                         <Button
                          className={classes.btn}
-                         href="/readlist#"
+                         href="./readlist"
                          startIcon={<LocalLibraryOutlinedIcon style={{ fontSize: 25 }}/>}
                          >Readlist</Button><br/>
 
