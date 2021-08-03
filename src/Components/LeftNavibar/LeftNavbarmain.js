@@ -14,7 +14,7 @@ import LocalLibraryOutlinedIcon from '@material-ui/icons/LocalLibraryOutlined';
  const useStyles = makeStyles({
      btn:{
        textTransform: "none",
-       fontSize:23,
+       fontSize:20,
        backgroundColor: 'white',
        '&:hover':{
        backgroundColor:"#F4F9C5"

@@ -1,11 +1,211 @@
 .Create{
+    width: 88vw;
+    height: 100vh;
+    margin-left: 15vw;       
+}
+.Top-RL{
     width: 85vw;
-    height: 100%;
-    margin-left: 15vw;
+    height: 5vh;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.Head-RL{
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+}
+.Left-RL{
+    width: 15vw;
+    height: 95vh;
+    background: #181818;
+    float: left;
+}
+.Mid-RL{
+    width:50vw;
+    height: 95vh;
+    background: #252836;
+    float: left;    
+}
+.Right-RL{
+    width: 23vw;
+    height: 95vh;
+    background: #181818;
+    float: left;
+}
+.submit-RL{
+    height: 29px;
+    width: 115px;
+    background: #28292F;
+    border-radius: 4px;
+    font-family: Segoe UI;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffff;
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+.Item1-RL{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    width: 211px;
+    height: 285px;
+    background: #181818;
+    border-radius: 4px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 5px;
+    float: left;
+    opacity: 0.6;
+}
+.Item2-RL{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    width: 211px;
+    height: 285px;
+    background: #181818;
+    border-radius: 4px; 
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 5px;
+    float: left;
+}
+.Item3-RL{
+    display:flex;
+    flex-direction: row;
+   
+    padding: 16px;
+    width: 211px;
+    height: 285px;
+    background: #181818;
+    border-radius: 4px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.Item4-RL{
+        display:flex;
+        flex-direction: row;
+       
+        padding: 16px;
+        width: 211px;
+        height: 285px;
+        background: #181818;
+    
+        border-radius: 4px;
         
-    }
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 10px;
+        float: left;
+}
+.cards-RL{
+    width:100%; 
+    border-radius:10px 10px 0px 0px;
+    border: 1px solid;
+}
+.para-1{
 
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffff;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10p;
+    padding: 1px;
+}
+.para-2{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.firstcard-RL{
 
-.Hai{
-    background-color: black;
+    height: 20vh;
+    width: 23vw;
+    border-radius: 4px;
+}
+.caption-RL{
+    position: static;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+
+}
+.button-RL{
+    width: 100px;
+    height: 30px;
+    background: #C4C4C4;
+    border-radius: 4px;
+    font-family:Segoe UI; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    margin-left: 50px;
+    color: #000000;
+}
+.but-RL{
+    margin-left: 50px;
+}
+.list-RL{
+    width: 22vw;
+    height: 70px;
+    margin: 0.5vw;
+    padding: 5px;
+    background: #292929;
+    border-radius: 8px;
+}
+.one-RL{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-right: 1px;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+.icon-RL{
+    height: 60px;
+    width: 85px;
+    margin-left: 5px;
+    border-radius: 4px;
+
+}
+.ti-RL{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    color: white;
+    margin-left: 5px;
+    margin-top: -5px; 
+    margin-left: 9px;
+}
+.aut-RL{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    color: #808191;
 }
