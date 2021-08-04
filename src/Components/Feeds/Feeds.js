@@ -13,8 +13,6 @@ function Feeds() {
         {title: "Jak-Jaw Racing" ,body:"503K views  •  November 3, 2013" ,author:" Angelina Jolie" ,feedpic:"/Assets/images/nothumbnail.jpg",profilepic:"/Assets/profile/angelinajolie.jpg", id:8}
     ]);
 
-
-
     return(
 
     <div className="ccards">

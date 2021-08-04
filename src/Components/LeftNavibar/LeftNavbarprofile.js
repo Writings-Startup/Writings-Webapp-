@@ -3,14 +3,15 @@ import "./LeftNavbarmain.css"
 import {Container }  from '@material-ui/core'
 import { makeStyles } from '@material-ui/core'
 import Button from '@material-ui/core/Button'
-import AccountCircleOutlinedIcon from '@material-ui/icons/AccountCircleOutlined';
-import VerifiedUserOutlinedIcon from '@material-ui/icons/VerifiedUserOutlined';
-import HttpsOutlinedIcon from '@material-ui/icons/HttpsOutlined';
-import NotificationsNoneOutlinedIcon from '@material-ui/icons/NotificationsNoneOutlined';
+import PhotoFilterOutlinedIcon from '@material-ui/icons/PhotoFilterOutlined';
+import TextsmsOutlinedIcon from '@material-ui/icons/TextsmsOutlined';
+import GroupWorkOutlinedIcon from '@material-ui/icons/GroupWorkOutlined';
 import ChromeReaderModeOutlinedIcon from '@material-ui/icons/ChromeReaderModeOutlined';
-import HelpOutlineOutlinedIcon from '@material-ui/icons/HelpOutlineOutlined';
-{/*left navi bar for settingspage*/}
+import EventOutlinedIcon from '@material-ui/icons/EventOutlined';
+import LocalLibraryOutlinedIcon from '@material-ui/icons/LocalLibraryOutlined';
+  
 
+{/*left navi bar for Profilepage*/}
 
 const useStyles = makeStyles({
     btn:{
@@ -26,37 +27,38 @@ const useStyles = makeStyles({
 })
 
 
-function LeftNavbarsettings() {
+function LeftNavbarprofile() {
+   
+
     const classes= useStyles()
     return (
         <div className="full-box" >
             <div className="leftnavsetti" >
                 <div className="void-area"></div>
                 <Container>
-                   
-                        <Button
+             <Button
                          className={classes.btn}
                          href="#"
-                         startIcon={<AccountCircleOutlinedIcon style={{ fontSize: 25 }}/>}
-                         >Account</Button><br/>
+                         startIcon={<PhotoFilterOutlinedIcon  style={{ fontSize: 25 }}/>}
+                         >Dashboard</Button><br/>
                         
                         <Button
                          className={classes.btn}
                          href="#"
-                         startIcon={<VerifiedUserOutlinedIcon style={{ fontSize: 25 }}/>}
-                         >Privacy</Button><br/>
+                         startIcon={<TextsmsOutlinedIcon style={{ fontSize: 25 }}/>}
+                         >Message</Button><br/>
 
                         <Button
                          className={classes.btn}
                          href="#"
-                         startIcon={<HttpsOutlinedIcon style={{ fontSize: 25 }}/>}
-                         >Security</Button><br/>
+                         startIcon={<GroupWorkOutlinedIcon style={{ fontSize: 25 }}/>}
+                         >Magazine</Button><br/>
                         
                         <Button
                          className={classes.btn}
-                         href="#"
-                         startIcon={<NotificationsNoneOutlinedIcon style={{ fontSize: 25 }}/>}
-                         >Notification</Button><br/>
+                         href="./readlist"
+                         startIcon={<LocalLibraryOutlinedIcon style={{ fontSize: 25 }}/>}
+                         >Readlist</Button><br/>
 
                         <Button
                          className={classes.btn}
@@ -67,34 +69,18 @@ function LeftNavbarsettings() {
                         <Button
                          className={classes.btn}
                          href="#"
-                         startIcon={< HelpOutlineOutlinedIcon style={{ fontSize: 25 }}/>}
-                         >Help</Button><br/>
-
-                        
-
-            
+                         startIcon={<EventOutlinedIcon style={{ fontSize: 25 }}/>}
+                         >Events</Button><br/>
+               </Container>
 
 
 
 
+</div>
 
-
-
-
-
-
-
-
-
-                </Container>
-
-
-
-
-            </div>
-            
-        </div>
-    )
+</div>
+)
 }
 
-export default LeftNavbarsettings
+export default LeftNavbarprofile
+
