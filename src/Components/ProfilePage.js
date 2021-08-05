@@ -46,7 +46,7 @@ function ProfilePage() {
                 <div className="writtings-box">
                     <img src="./Assets/images/Rectangle 4.jpg" alt="" className="coverpic" />
                     <p className="category">FOOD</p>
-                    <p className="heading">Fugiat Incididunt Voluptate</p>
+                    <p className="heading">Fugiat Incididunt Volutate</p>
                     <p className="date">November 3, 2012</p>
                     <p className="content">Ea qui dolor aute cupidatat ad pariatur proident. Mollit nulla tempor aute reprehenderit ut dolore mollit nisi consequat excepteur ex officia pariatur irure.</p>
                 </div>
