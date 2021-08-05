@@ -48,7 +48,7 @@ function ProfilePage() {
                     <p className="category">FOOD</p>
                     <p className="heading">Fugiat Incididunt Volutate</p>
                     <p className="date">November 3, 2012</p>
-                    <p className="content">Ea qui dolor aute cupidatat ad pariatur proident. Mollit nulla tempor aute reprehenderit ut dolore mollit nisi consequat excepteur ex officia pariatur irure.</p>
+                    <p className="content">Ea qui dolor aute cupdatat ad pariatur proident. Mollit nulla tempor aute reprehenderit ut dolore mollit nisi consequat excepteur ex officia pariatur irure.</p>
                 </div>
                 <div className="writtings-box">
                     <img src="./Assets/images/readlist8.jpg" alt="" className="coverpic" />
