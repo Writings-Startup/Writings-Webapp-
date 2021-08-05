@@ -1,11 +1,12 @@
 import React from 'react'
 import "../Css/Profile.css"
-import LeftNavbarmain from '../Components/LeftNavibar/LeftNavbarmain'
 import ProfilePage from '../Components/ProfilePage'
+import LeftNavbarprofile from '../Components/LeftNavibar/LeftNavbarprofile'
 function Profile() {
     return (
         <div>
-         <LeftNavbarmain/>
+       
+          <LeftNavbarprofile/>
             <ProfilePage/>
 
         </div>
