@@ -18,7 +18,8 @@ const useStyles = makeStyles({
       fontSize:20,
       backgroundColor: 'white',
       '&:hover':{
-      backgroundColor:"#F4F9C5"
+      backgroundColor:"#F4F9C5",
+      color:"black"
       
            
       }
@@ -66,26 +67,10 @@ function LeftNavbarsettings() {
 
                         <Button
                          className={classes.btn}
-                         href="#"
+                         href="/help"
                          startIcon={< HelpOutlineOutlinedIcon style={{ fontSize: 25 }}/>}
                          >Help</Button><br/>
-
-                        
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
+             
                 </Container>
 
 
