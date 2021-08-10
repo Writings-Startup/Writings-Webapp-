@@ -42,21 +42,16 @@
     width: 380px;
     font-size: 15px;
 }
-.unfollow-btn{
-    margin-left: 61px;
-    float: left;
-    border: none;
-    background: none;
-    color: #FF0404;
-}
-.message-btn{
+
+.editprofile-btn{
     margin-left: 66px;
     float: left;
-    background: #4798F7;
+    background: #4126E4;
     border: none;
     border-radius: 5px;
     width: 100px;
     height: 30px;
+    color: white;
 }
 .badge{
     width: 200px;
@@ -103,7 +98,7 @@
     color:white;
     font-size: 20px;
 }
-.readlist-count{
+.tag-count{
     float: left;
     color:white;
     margin-left: 10px;

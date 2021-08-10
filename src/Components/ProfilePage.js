@@ -4,7 +4,7 @@ import LoyaltyIcon from '@material-ui/icons/Loyalty';
 
 
 function ProfilePage() {
-    const [user,setUser] = useState({name:"Sirius Black",userid:"sirius_blackie", profilepic:"./Assets/profile/siriusblack.jpg"})
+    const [user,setUser] = useState({name:"Thomas Shellby",userid:"arthurblack", profilepic:"./Assets/profile/Profile Picture2.jpg"})
     return (
         <div className="profile-body">
             <div className="userDetails">
@@ -12,8 +12,7 @@ function ProfilePage() {
                 <p className="Pname">{user.name}</p>
                 <p className="Uid">@{user.userid}</p>
                 <p className="bio">Ipsum adipisicing culpa est nisi consequat ex amet magna culpa veniam tempor irure ea. Reprehenderit labore do tempor eiusmod in consectetur ex sunt id mollit commodo ipsum deserunt quis.</p>
-                <button className="unfollow-btn">Unfollow</button>
-                <button className="message-btn">Message</button>
+                <button className="editprofile-btn">Edit Profile</button>
             </div>
             <div className="badge">
                 <LoyaltyIcon style={{ fontSize: 170, color: "#880E4F"}} />
@@ -25,14 +24,14 @@ function ProfilePage() {
                 <p className="followers-count">120</p>
                 <a href="" className="links">Following</a>
                 <p className="following-count">99</p>
-                <a href="" className="links">Read List</a>
-                <p className="readlist-count">5</p>
+                <a href="" className="links">Tags</a>
+                <p className="tag-count">5</p>
             </div>
             <div className="writtings-list">
                 <div className="writtings-box">
                     <img src="./Assets/images/Rectangle 2.jpg" alt="" className="coverpic" />
                     <p className="category">NATURE</p>
-                    <p className="heading">Tempor deserunt Sunt Qui</p>
+                    <p className="heading">Soldier Of The Sun</p>
                     <p className="date">November 3, 2012</p>
                     <p className="content">Ea qui dolor aute cupidatat ad pariatur proident. Mollit nulla tempor aute reprehenderit ut dolore mollit nisi consequat excepteur ex officia pariatur irure.</p>
                 </div>
