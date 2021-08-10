@@ -15,7 +15,7 @@ import HelpOutlineOutlinedIcon from '@material-ui/icons/HelpOutlineOutlined';
 const useStyles = makeStyles({
     btn:{
       textTransform: "none",
-      fontSize:20,
+      fontSize:14,
       backgroundColor: 'white',
       '&:hover':{
       backgroundColor:"#F4F9C5",
@@ -38,37 +38,37 @@ function LeftNavbarsettings() {
                         <Button
                          className={classes.btn}
                          href="#"
-                         startIcon={<AccountCircleOutlinedIcon style={{ fontSize: 25 }}/>}
+                         startIcon={<AccountCircleOutlinedIcon style={{ fontSize: 18 }}/>}
                          >Account</Button><br/>
                         
                         <Button
                          className={classes.btn}
                          href="#"
-                         startIcon={<VerifiedUserOutlinedIcon style={{ fontSize: 25 }}/>}
+                         startIcon={<VerifiedUserOutlinedIcon style={{ fontSize: 18 }}/>}
                          >Privacy</Button><br/>
 
                         <Button
                          className={classes.btn}
                          href="#"
-                         startIcon={<HttpsOutlinedIcon style={{ fontSize: 25 }}/>}
+                         startIcon={<HttpsOutlinedIcon style={{ fontSize: 18 }}/>}
                          >Security</Button><br/>
                         
                         <Button
                          className={classes.btn}
                          href="#"
-                         startIcon={<NotificationsNoneOutlinedIcon style={{ fontSize: 25 }}/>}
+                         startIcon={<NotificationsNoneOutlinedIcon style={{ fontSize: 18 }}/>}
                          >Notification</Button><br/>
 
                         <Button
                          className={classes.btn}
                          href="#"
-                         startIcon={<ChromeReaderModeOutlinedIcon style={{ fontSize: 25 }}/>}
+                         startIcon={<ChromeReaderModeOutlinedIcon style={{ fontSize: 18 }}/>}
                         >Guide</Button><br/>
 
                         <Button
                          className={classes.btn}
                          href="/help"
-                         startIcon={< HelpOutlineOutlinedIcon style={{ fontSize: 25 }}/>}
+                         startIcon={< HelpOutlineOutlinedIcon style={{ fontSize: 18 }}/>}
                          >Help</Button><br/>
              
                 </Container>

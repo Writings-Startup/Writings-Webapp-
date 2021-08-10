@@ -11,11 +11,11 @@ function ReadListPage() {
 
                </div>
                <div className="Left-RL">
-               <input class="submit-RL"  value="Recently read" type="submit" />
+               <input className="submit-RL"  value="Recently read" type="submit" />
                <br/>
-               <input class="submit-RL"  value="Create Readlist" type="submit" />
+               <input className="submit-RL"  value="Create Readlist" type="submit" />
                <br/>
-               <input class="submit-RL"  value="Liked writings" type="submit" />
+               <input className="submit-RL"  value="Liked writings" type="submit" />
 
                    
 
@@ -87,7 +87,7 @@ function ReadListPage() {
                </td>
                <td className="but-RL">
               
-               <input class="button-RL"  value="Add more" type="submit" />
+               <input className="button-RL"  value="Add more" type="submit" />
                </td>
                </tr>
                </tbody>
