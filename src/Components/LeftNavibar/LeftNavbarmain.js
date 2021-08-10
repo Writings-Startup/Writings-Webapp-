@@ -14,11 +14,11 @@ import LocalLibraryOutlinedIcon from '@material-ui/icons/LocalLibraryOutlined';
  const useStyles = makeStyles({
      btn:{
        textTransform: "none",
-       fontSize:20,
+       fontSize:14,
        backgroundColor: 'white',
        '&:hover':{
-       backgroundColor:"#F4F9C5"
-       
+       backgroundColor:"#F4F9C5",
+       color:"black"
             
        }
      }
@@ -35,51 +35,42 @@ function LeftNavbarmain() {
                         <Button
                          className={classes.btn}
                          href="#"
-                         startIcon={<RssFeedOutlinedIcon style={{ fontSize: 25 }}/>}
+                         startIcon={<RssFeedOutlinedIcon style={{ fontSize: 18 }}/>}
                          >Feed</Button><br/>
                         
                         <Button
                          className={classes.btn}
                          href="#"
-                         startIcon={<GroupWorkOutlinedIcon style={{ fontSize: 25 }}/>}
+                         startIcon={<GroupWorkOutlinedIcon style={{ fontSize: 18 }}/>}
                          >Magazine</Button><br/>
 
                         <Button
                          className={classes.btn}
                          href="#"
-                         startIcon={<WhatshotOutlinedIcon style={{ fontSize: 25 }}/>}
+                         startIcon={<WhatshotOutlinedIcon style={{ fontSize: 18 }}/>}
                          >Booming</Button><br/>
                         
                         <Button
                          className={classes.btn}
                          href="./readlist"
-                         startIcon={<LocalLibraryOutlinedIcon style={{ fontSize: 25 }}/>}
+                         startIcon={<LocalLibraryOutlinedIcon style={{ fontSize: 18 }}/>}
                          >Readlist</Button><br/>
 
                         <Button
                          className={classes.btn}
                          href="#"
-                         startIcon={<ChromeReaderModeOutlinedIcon style={{ fontSize: 25 }}/>}
+                         startIcon={<ChromeReaderModeOutlinedIcon style={{ fontSize: 18 }}/>}
                         >Guide</Button><br/>
 
                         <Button
                          className={classes.btn}
                          href="#"
-                         startIcon={<EventOutlinedIcon style={{ fontSize: 25 }}/>}
+                         startIcon={<EventOutlinedIcon style={{ fontSize: 18 }}/>}
                          >Events</Button><br/>
 
                         
 
-            
-
-
-
-
-
-
-
-
-
+        
 
 
 
