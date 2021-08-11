@@ -9,6 +9,7 @@ import HttpsOutlinedIcon from '@material-ui/icons/HttpsOutlined';
 import NotificationsNoneOutlinedIcon from '@material-ui/icons/NotificationsNoneOutlined';
 import ChromeReaderModeOutlinedIcon from '@material-ui/icons/ChromeReaderModeOutlined';
 import HelpOutlineOutlinedIcon from '@material-ui/icons/HelpOutlineOutlined';
+import { Link } from 'react-router-dom';
 {/*left navi bar for settingspage*/}
 
 
@@ -34,12 +35,11 @@ function LeftNavbarsettings() {
             <div className="leftnavsetti" >
                 <div className="void-area"></div>
                 <Container>
-                   
                         <Button
                          className={classes.btn}
-                         href="#"
+                         
                          startIcon={<AccountCircleOutlinedIcon style={{ fontSize: 18 }}/>}
-                         >Account</Button><br/>
+                         ><Link to="/accountsettings"> Account</Link></Button><br/>
                         
                         <Button
                          className={classes.btn}
@@ -67,13 +67,11 @@ function LeftNavbarsettings() {
 
                         <Button
                          className={classes.btn}
-                         href="/help"
+                         
                          startIcon={< HelpOutlineOutlinedIcon style={{ fontSize: 18 }}/>}
-                         >Help</Button><br/>
+                         ><Link to="/help">Help</Link></Button><br/>
              
                 </Container>
-
-
 
 
             </div>

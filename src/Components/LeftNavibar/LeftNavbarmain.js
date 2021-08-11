@@ -9,6 +9,7 @@ import WhatshotOutlinedIcon from '@material-ui/icons/WhatshotOutlined';
 import ChromeReaderModeOutlinedIcon from '@material-ui/icons/ChromeReaderModeOutlined';
 import EventOutlinedIcon from '@material-ui/icons/EventOutlined';
 import LocalLibraryOutlinedIcon from '@material-ui/icons/LocalLibraryOutlined';
+import { Link } from 'react-router-dom';
 
 {/*left navi bar for homepage,createpage,notificationpage,profilepage*/}
  const useStyles = makeStyles({
@@ -52,9 +53,9 @@ function LeftNavbarmain() {
                         
                         <Button
                          className={classes.btn}
-                         href="./readlist"
+                         
                          startIcon={<LocalLibraryOutlinedIcon style={{ fontSize: 18 }}/>}
-                         >Readlist</Button><br/>
+                         ><Link to ="/readlist">Readlist</Link></Button><br/>
 
                         <Button
                          className={classes.btn}
