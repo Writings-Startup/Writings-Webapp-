@@ -9,6 +9,7 @@ import Settings from '../Pages/Settings';
 import Create from '../Pages/Create';
 import ReadList from '../Pages/ReadList';
 import Help from '../Pages/Help';
+
 function Navibar() {
     return (
         <div className="navigation">
@@ -21,7 +22,8 @@ function Navibar() {
                 <Route path ='/create' component={Create}></Route>
                 <Route path ='/settings' component={Settings}></Route>
                 <Route path = '/readlist' component={ReadList}></Route>
-                 <Route path = '/help' component={Help}></Route>
+                <Route path ='/accountsettings' component={Settings}></Route>
+                <Route path = '/help' component={Help}></Route>
               
             </Switch>
           </Router>
