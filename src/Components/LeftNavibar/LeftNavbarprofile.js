@@ -68,7 +68,7 @@ function LeftNavbarprofile() {
 
                         <Button
                          className={classes.btn}
-                         href="#"
+                         href="./events"
                          startIcon={<EventOutlinedIcon style={{ fontSize: 18 }}/>}
                          >Events</Button><br/>
                </Container>

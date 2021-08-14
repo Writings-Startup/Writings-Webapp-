@@ -1,52 +1,57 @@
 .Create{
     width: 88vw;
     height: 100vh;
-    margin-left: 13vw;       
+    margin-left: 13vw;  
+         
 }
 .Top-RL{
-    width: 85vw;
+    width: 88vw;
     height: 5vh;
-    margin-left: 2%;
-    margin-top: 1%;
+    margin-left: 0;
+    margin-top: 0;
+    
 }
 .Head-RL{
     font-family: Segoe UI;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 27px;
+    
+    padding-left: 2%;
+    padding-top: 1%;
 }
 .Left-RL{
     width: 15vw;
     height: 95vh;
-    background: #181818;
+   
     float: left;
 }
 .Mid-RL{
     width:50vw;
     height: 95vh;
-    background: #252836;
+   
     float: left;    
 }
 .Right-RL{
     width: 23vw;
     height: 95vh;
-    background: #181818;
+    
     float: left;
 }
 .submit-RL{
     height: 29px;
     width: 115px;
-    background: #28292F;
+    background: #FFF8AC;
     border-radius: 4px;
     font-family: Segoe UI;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    color: #ffff;
+    color: black;
     text-align: center;
     margin-top: 5vh;
     margin-left: 3vw;
+    border: none;
 }
 .Item1-RL{
     display:flex;
@@ -55,7 +60,7 @@
     padding: 16px;
     width: 211px;
     height: 285px;
-    background: #181818;
+    background: #e9f4f8;;
     border-radius: 4px;
     margin-top: 0px;
     margin-left: 15px;
@@ -70,7 +75,7 @@
     padding: 16px;
     width: 211px;
     height: 285px;
-    background: #181818;
+    background: #fafafa;
     border-radius: 4px; 
     margin-top: 0px;
     margin-left: 10px;
@@ -84,7 +89,7 @@
     padding: 16px;
     width: 211px;
     height: 285px;
-    background: #181818;
+    background: #fafafa;
     border-radius: 4px;
     margin-top: 0px;
     margin-left: 10px;
@@ -98,7 +103,7 @@
         padding: 16px;
         width: 211px;
         height: 285px;
-        background: #181818;
+        background: #fafafa;
     
         border-radius: 4px;
         
@@ -118,7 +123,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    color: #ffff;
+    
     margin-left: 30px;
     margin-top: 20px;
     margin-bottom: 10p;
@@ -129,7 +134,7 @@
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    color: #FFFFFF;
+    
 }
 .firstcard-RL{
 
@@ -170,7 +175,7 @@
     height: 70px;
     margin: 0.5vw;
     padding: 5px;
-    background: #292929;
+    background: #fafafa;
     border-radius: 8px;
 }
 .one-RL{
@@ -181,7 +186,7 @@
     margin-top: 4px;
     margin-right: 1px;
     align-items: center;
-    color: #FFFFFF;
+    
 
 }
 .icon-RL{
@@ -195,7 +200,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 11px;
-    color: white;
+    
     margin-left: 5px;
     margin-top: -5px; 
     margin-left: 9px;

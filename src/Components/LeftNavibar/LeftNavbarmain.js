@@ -41,33 +41,36 @@ function LeftNavbarmain() {
                         
                         <Button
                          className={classes.btn}
-                         href="#"
+                         
                          startIcon={<GroupWorkOutlinedIcon style={{ fontSize: 18 }}/>}
-                         >Magazine</Button><br/>
+                         ><Link to ="/magazine" style={{textDecoration: 'none', color: 'black' }}>Magazine</Link></Button><br/>
+
 
                         <Button
                          className={classes.btn}
-                         href="#"
+                         
                          startIcon={<WhatshotOutlinedIcon style={{ fontSize: 18 }}/>}
-                         >Booming</Button><br/>
+                         ><Link to ="/booming" style={{textDecoration: 'none', color: 'black' }}>Booming</Link></Button><br/>
+
                         
                         <Button
                          className={classes.btn}
                          
                          startIcon={<LocalLibraryOutlinedIcon style={{ fontSize: 18 }}/>}
-                         ><Link to ="/readlist">Readlist</Link></Button><br/>
+                         ><Link to ="/readlist" style={{textDecoration: 'none', color: 'black' }}>Readlist</Link></Button><br/>
 
                         <Button
                          className={classes.btn}
-                         href="#"
+                         
                          startIcon={<ChromeReaderModeOutlinedIcon style={{ fontSize: 18 }}/>}
-                        >Guide</Button><br/>
+                         ><Link to ="/guide" style={{textDecoration: 'none', color: 'black' }}>Guide</Link></Button><br/>
+
 
                         <Button
                          className={classes.btn}
-                         href="#"
+                        
                          startIcon={<EventOutlinedIcon style={{ fontSize: 18 }}/>}
-                         >Events</Button><br/>
+                         ><Link to ="/events" style={{textDecoration: 'none', color: 'black'  }}>Events</Link></Button><br/>
 
                         
 
@@ -79,11 +82,16 @@ function LeftNavbarmain() {
                 </Container>
 
 
+                
 
+
+                   
+
+                </div>
 
             </div>
             
-        </div>
+        
     )
 }
 

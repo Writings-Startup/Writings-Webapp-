@@ -39,7 +39,7 @@ function LeftNavbarsettings() {
                          className={classes.btn}
                          
                          startIcon={<AccountCircleOutlinedIcon style={{ fontSize: 18 }}/>}
-                         ><Link to="/accountsettings"> Account</Link></Button><br/>
+                         ><Link to="/accountsettings" style={{textDecoration: 'none', color: 'black' }}> Account</Link></Button><br/>
                         
                         <Button
                          className={classes.btn}
@@ -69,7 +69,7 @@ function LeftNavbarsettings() {
                          className={classes.btn}
                          
                          startIcon={< HelpOutlineOutlinedIcon style={{ fontSize: 18 }}/>}
-                         ><Link to="/help">Help</Link></Button><br/>
+                         ><Link to="/help" style={{textDecoration: 'none', color: 'black' }}>Help</Link></Button><br/>
              
                 </Container>
 

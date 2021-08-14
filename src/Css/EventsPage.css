@@ -1,0 +1,137 @@
+.page-E{
+    width: 85vw;
+    height: 100%;
+    margin-left: 13vw;
+}
+ 
+.even{
+    width: 85vw;
+    height: 5vh;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.title-E{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+
+    color: #000000;
+    margin-left: 6%;
+    margin-top: 30px;
+}
+.boxone{
+    width: 44vw;
+    height: 32vh;
+    margin-left: 4%;
+
+    background:#FFFFFF;
+}
+.imgone-E{
+    width: 20vw;
+    height: 30vh;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 16px;
+}
+.ht-E{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+   
+    color: #313237;
+    margin-left: 15%;
+    padding-top: 5%;
+}
+.ct-E{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #718797;
+    margin-left: 14%;
+    
+}
+.divtwo{
+    width: 44vw;
+    background:#FFFFFF;
+    height: 60vh;
+    margin-left: 6%;
+    margin-top: 40vh;
+    float: left;
+}
+
+.boxtwo{
+    width: 44vw;
+    height: 22vh;
+    
+    background: #E7ECF2;
+    margin-top: 3vh;
+    
+}
+.titletwo{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+
+    color: #000000;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.imgtwo-E{
+    width: 12vw;
+    height: 17vh;
+    margin-left: 8%;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+.ctwo-E{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 7%;
+   
+    padding-top: 5%;
+}
+.divthree{
+    height: 80vh;
+    width: 25vw;
+    
+    margin-left: 60vw;
+    background:#FFFFFF;
+}
+.boxthree{
+    width: 25vw;
+    height: 60vh;
+
+
+background: #E9F0F7;
+}
+.imgthree-E{
+    width: 23vw;
+    height: 33vh;
+    margin: 4%;
+    border-radius: 20px;
+    
+}
+.titlethree{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 34px;
+    margin-left: 4%;
+    margin-top: 1%;
+    color: #313237;
+
+}
+.cthree-E{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #718797;
+    margin-left: 4%;
+}
