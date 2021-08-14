@@ -9,6 +9,10 @@ import Settings from '../Pages/Settings';
 import Create from '../Pages/Create';
 import ReadList from '../Pages/ReadList';
 import Help from '../Pages/Help';
+import Events from '../Pages/Events';
+import Magazine from '../Pages/Magazine';
+import Booming from '../Pages/Booming';
+import Guide from '../Pages/Guide';
 
 function Navibar() {
     return (
@@ -24,6 +28,10 @@ function Navibar() {
                 <Route path = '/readlist' component={ReadList}></Route>
                 <Route path ='/accountsettings' component={Settings}></Route>
                 <Route path = '/help' component={Help}></Route>
+                <Route path = '/events' component={Events}></Route>
+                <Route path = '/magazine' component={Magazine}></Route>
+                <Route path = '/booming' component={Booming}></Route>
+                <Route path = '/guide' component={Guide}></Route>
               
             </Switch>
           </Router>
